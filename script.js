@@ -113,7 +113,7 @@ const notas = document.createElement("div");
 notas.style.width = "250px";
 notas.style.height = "100px";
 notas.style.display = "flex";
-notas.style.gap = "8px";
+notas.style.gap = "10px";
 calculadora.appendChild(notas);
 
 // div nota 1
@@ -219,7 +219,7 @@ nota3.appendChild(inputNota3);
 // Botão calcular
 
 const button = document.createElement("button");
-button.style.width = "225px";
+button.style.width = "228px";
 button.style.height = "45px";
 button.style.backgroundColor = "white";
 button.style.color = "#1877F2";
@@ -247,7 +247,6 @@ imgDesc.style.width = "250px";
 imgDesc.style.height = "250px";
 imgDesc.style.position = "relative";
 imgDesc.style.bottom = "70px";
-// divResultado.style.visibility = 'hidden'
 flex.appendChild(divResultado);
 var statusMedia = "";
 var limpou = true;
