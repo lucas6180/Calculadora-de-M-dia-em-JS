@@ -224,7 +224,7 @@ button.style.height = "45px";
 button.style.backgroundColor = "white";
 button.style.color = "#1877F2";
 button.style.outline = "0";
-button.style.border = "solid white";
+button.style.border = "0";
 button.style.borderRadius = "30px";
 button.textContent = "Calcular Média";
 button.style.fontSize = "15.5px";
@@ -287,7 +287,7 @@ button.addEventListener("click", () => {
       if (media <= 3) {
         statusMedia = "Reprovado";
       } else if (media <= 6) {
-        statusMedia = "Recuperação, Por favor Melhore";
+        statusMedia = "Recuperação";
       } else {
         statusMedia = "Aprovado";
       }
